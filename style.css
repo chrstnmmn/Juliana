@@ -58,6 +58,15 @@ body {
     text-align: center;
   }
 
+  .elements .Topbar {
+    pointer-events: none;
+    position: absolute;
+    margin-top: -410px;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
   .elements .Flowers1 {
     pointer-events: none;
     position: absolute;
@@ -153,7 +162,7 @@ body {
     color: var(--Text, #fbf9f9);
     text-align: center;
     font-family: "Pacifico";
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 200;
     line-height: 97.001%; /* 15.52px */
@@ -165,10 +174,19 @@ body {
     text-align: center;
   }
 
+  .elements .Topbar {
+    pointer-events: none;
+    position: absolute;
+    margin-top: -450px;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
   .elements .Flowers1 {
     pointer-events: none;
     position: absolute;
-    margin-top: -530px;
+    margin-top: -450px;
     left: 0;
     width: 100%;
     height: auto;
@@ -222,7 +240,7 @@ body {
 @media (min-width: 640px) {
   .title {
     text-align: center;
-    margin-top: 210px;
+    margin-top: 250px;
   }
   .title #subtitle {
     margin-bottom: 0;
@@ -260,7 +278,7 @@ body {
     color: var(--Text, #fbf9f9);
     text-align: center;
     font-family: "Pacifico";
-    font-size: 16px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 200;
     line-height: 97.001%; /* 15.52px */
@@ -272,10 +290,19 @@ body {
     text-align: center;
   }
 
+  .elements .Topbar {
+    pointer-events: none;
+    position: absolute;
+    margin-top: -546px;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
   .elements .Flowers1 {
     pointer-events: none;
     position: absolute;
-    margin-top: -560px;
+    margin-top: -540px;
     left: 0;
     width: 100%;
     height: auto;
