@@ -49,3 +49,18 @@ body {
   width: 100%;
   height: auto;
 }
+
+.footertext {
+  color: var(--Text, #fbf9f9);
+  text-align: center;
+  margin-top: 1150px;
+  margin-bottom: -100px;
+
+  /* TextShadow */
+  text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3);
+  font-family: "Source Sans 3";
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
