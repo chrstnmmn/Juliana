@@ -4,7 +4,7 @@ body {
 }
 
 /*xs*/
-@media (min-width: 457px) {
+@media (max-width: 457px) {
   .title {
     text-align: center;
     margin-top: 210px;
@@ -111,7 +111,7 @@ body {
 }
 
 /*sm*/
-@media (min-width: 640px) {
+@media (max-width: 640px) {
   .title {
     text-align: center;
     margin-top: 210px;
