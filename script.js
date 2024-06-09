@@ -23,9 +23,9 @@ function checkName() {
     userInput.value = "";
     outputName.innerHTML = name;
     tableNumber.innerHTML = guestList[name];
+    return;
   } else {
     window.scrollTo({ top: targetY, behavior: "smooth" });
-    userInput.value = "";
     userInput.placeholder = "Sorry, you are not invited.";
     setTimeout(() => {
       document.body.style.overflowY = "hidden";
