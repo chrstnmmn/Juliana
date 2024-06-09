@@ -15,9 +15,9 @@ body {
     color: var(--Text, #fbf9f9);
 
     /* TextShadow */
-    text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     font-family: "Pacifico";
-    font-size: 48px;
+    font-size: 58px;
     font-style: normal;
     font-weight: 400;
     line-height: 97.001%; /* 62.081px */
@@ -42,7 +42,33 @@ body {
     text-align: center;
   }
 
+  input {
+    font-size: 16px;
+    color: #ff7891;
+    font-family: "Pacifico";
+    text-align: center;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.3);
+    border: none;
+    outline: none;
+    display: inline-block;
+    height: 34px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 14px;
+    right: 9px;
+    border-radius: 22px;
+    width: 250px;
+    height: 38px;
+    box-sizing: border-box;
+    padding: 0 18px;
+  }
+
+  input::-webkit-input-placeholder {
+    color: rgba(255, 120, 145, 0.75);
+  }
+
   #enterLink {
+    margin-top: 0px;
     color: var(--Text, #fbf9f9);
     text-align: center;
     font-family: "Pacifico";
@@ -57,20 +83,10 @@ body {
     pointer-events: none;
     text-align: center;
   }
-
-  .elements .Topbar {
-    pointer-events: none;
-    position: absolute;
-    margin-top: -410px;
-    left: 0;
-    width: 100%;
-    height: auto;
-  }
-
   .elements .Flowers1 {
     pointer-events: none;
     position: absolute;
-    margin-top: -410px;
+    margin-top: -430px;
     left: 0;
     width: 100%;
     height: auto;
@@ -79,7 +95,7 @@ body {
   .elements .Flowers2 {
     pointer-events: none;
     position: absolute;
-    margin-top: -100px;
+    margin-top: -80px;
     left: 0;
     width: 100%;
     height: auto;
@@ -158,11 +174,36 @@ body {
     text-align: center;
   }
 
+  input {
+    font-size: 18px;
+    color: #ff7891;
+    font-family: "Pacifico";
+    text-align: center;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.3);
+    border: none;
+    outline: none;
+    display: inline-block;
+    height: 34px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 14px;
+    right: 9px;
+    border-radius: 22px;
+    width: 300px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0 18px;
+  }
+
+  input::-webkit-input-placeholder {
+    color: rgba(255, 120, 145, 0.75);
+  }
+
   #enterLink {
     color: var(--Text, #fbf9f9);
     text-align: center;
     font-family: "Pacifico";
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 200;
     line-height: 97.001%; /* 15.52px */
@@ -173,20 +214,10 @@ body {
     pointer-events: none;
     text-align: center;
   }
-
-  .elements .Topbar {
-    pointer-events: none;
-    position: absolute;
-    margin-top: -450px;
-    left: 0;
-    width: 100%;
-    height: auto;
-  }
-
   .elements .Flowers1 {
     pointer-events: none;
     position: absolute;
-    margin-top: -450px;
+    margin-top: -460px;
     left: 0;
     width: 100%;
     height: auto;
@@ -274,6 +305,31 @@ body {
     text-align: center;
   }
 
+  input {
+    font-size: 20px;
+    color: #ff7891;
+    font-family: "Pacifico";
+    text-align: center;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.3);
+    border: none;
+    outline: none;
+    display: inline-block;
+    height: 34px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 14px;
+    right: 9px;
+    border-radius: 22px;
+    width: 380px;
+    height: 42px;
+    box-sizing: border-box;
+    padding: 0 18px;
+  }
+
+  input::-webkit-input-placeholder {
+    color: rgba(255, 120, 145, 0.75);
+  }
+
   #enterLink {
     color: var(--Text, #fbf9f9);
     text-align: center;
@@ -290,19 +346,10 @@ body {
     text-align: center;
   }
 
-  .elements .Topbar {
-    pointer-events: none;
-    position: absolute;
-    margin-top: -546px;
-    left: 0;
-    width: 100%;
-    height: auto;
-  }
-
   .elements .Flowers1 {
     pointer-events: none;
     position: absolute;
-    margin-top: -540px;
+    margin-top: -580px;
     left: 0;
     width: 100%;
     height: auto;
