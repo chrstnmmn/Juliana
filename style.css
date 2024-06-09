@@ -78,7 +78,7 @@ body {
     font-weight: 200;
     line-height: 97.001%; /* 15.52px */
     text-decoration-line: underline;
-    width: 150px;
+    width: 200px;
     height: 50px;
   }
 
@@ -109,6 +109,16 @@ body {
     z-index: -1;
   }
 
+  .elements .Flowers3 {
+    pointer-events: none;
+    position: absolute;
+    margin-top: 780px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+
   .elements .Cloud1 {
     pointer-events: none;
     position: absolute;
@@ -121,16 +131,113 @@ body {
   .elements .Cloud2 {
     pointer-events: none;
     position: absolute;
-    margin-top: -25px;
+    margin-top: 60px;
     left: 0;
     width: 100%;
     height: auto;
   }
 
-  .footer .footertext {
+  .elements .Cloud3 {
+    pointer-events: none;
+    position: absolute;
+    margin-top: 30px;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .elements .Cloud4 {
+    pointer-events: none;
+    position: absolute;
+    margin-top: 950px;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .elements .ribbon {
+    pointer-events: none;
+    left: 0;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin-top: 300px;
+    z-index: -5;
+  }
+
+  .elements .crown {
+    pointer-events: none;
+    left: 70px;
+    width: 60%;
+    height: auto;
+
+    position: absolute;
+    margin-top: 500px;
+    z-index: -5;
+  }
+
+  .result {
+    color: #fbf9f9;
+    margin-top: 400px;
+    text-align: center;
+    padding-top: 120px;
+  }
+
+  .result #resultText {
+    font-family: "Pacifico";
+    text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-bottom: 0px;
+  }
+
+  .result #gender {
+    margin-top: 15px;
+    text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3);
+    font-family: "Source Sans 3";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .result #userNameText {
+    margin-top: -35px;
+    text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3);
+    font-family: "Source Sans 3";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+
+  .result #seatNumber {
+    text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3);
+    font-family: "Source Sans 3";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 0px;
+  }
+
+  .result #seatNumberText {
+    margin-top: -50px;
+    text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3);
+    font-family: Pacifico;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  #footer .footertext {
     color: var(--Text, #fbf9f9);
     text-align: center;
-    margin-top: 500px;
+    margin-top: 600px;
     margin-bottom: 0;
 
     /* TextShadow */
@@ -182,7 +289,7 @@ body {
   }
 
   input {
-    font-size: 18px;
+    font-size: 16px;
     color: #ff7891;
     font-family: "Pacifico";
     text-align: center;
@@ -193,8 +300,8 @@ body {
     vertical-align: middle;
     position: relative;
     border-radius: 22px;
-    width: 300px;
-    height: 40px;
+    width: 290px;
+    height: 38px;
     box-sizing: border-box;
     padding: 0 18px;
   }
@@ -204,14 +311,24 @@ body {
   }
 
   #enterLink {
+    cursor: pointer;
+    margin-top: 0px;
+    background-color: transparent;
+    border-color: transparent;
     color: var(--Text, #fbf9f9);
     text-align: center;
     font-family: "Pacifico";
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 200;
     line-height: 97.001%; /* 15.52px */
     text-decoration-line: underline;
+    width: 320px;
+    height: 50px;
+  }
+
+  #enterLink:active {
+    color: rgba(255, 255, 255, 0.678);
   }
 
   .elements {
@@ -255,7 +372,16 @@ body {
     height: auto;
   }
 
-  .footer .footertext {
+  .elements .Cloud3 {
+    pointer-events: none;
+    position: absolute;
+    margin-top: 30px;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  #footer .footertext {
     color: var(--Text, #fbf9f9);
     text-align: center;
     margin-top: 700px;
@@ -321,8 +447,8 @@ body {
     vertical-align: middle;
     position: relative;
     border-radius: 22px;
-    width: 380px;
-    height: 42px;
+    width: 470px;
+    height: 40px;
     box-sizing: border-box;
     padding: 0 18px;
   }
@@ -332,14 +458,24 @@ body {
   }
 
   #enterLink {
+    cursor: pointer;
+    margin-top: 0px;
+    background-color: transparent;
+    border-color: transparent;
     color: var(--Text, #fbf9f9);
     text-align: center;
     font-family: "Pacifico";
-    font-size: 24px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 200;
     line-height: 97.001%; /* 15.52px */
     text-decoration-line: underline;
+    width: 400px;
+    height: 50px;
+  }
+
+  #enterLink:active {
+    color: rgba(255, 255, 255, 0.678);
   }
 
   .elements {
@@ -350,10 +486,9 @@ body {
   .elements .Flowers1 {
     pointer-events: none;
     position: absolute;
-    margin-top: -580px;
+    margin-top: -800px;
     left: 0;
     width: 100%;
-    height: auto;
   }
 
   .elements .Flowers2 {
@@ -384,7 +519,16 @@ body {
     height: auto;
   }
 
-  .footer .footertext {
+  .elements .Cloud3 {
+    pointer-events: none;
+    position: absolute;
+    margin-top: 30px;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  #footer .footertext {
     color: var(--Text, #fbf9f9);
     text-align: center;
     margin-top: 900px;
