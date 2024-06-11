@@ -1,7 +1,9 @@
 //always move scroll the page back to top when the page refresh
 const targetY = document.getElementsByClassName("Flowers1");
+const bodyElement = document.getElementById("body");
 window.onload = function () {
   window.scrollTo({ top: targetY, behavior: "smooth" });
+  bodyElement.style.display = "none";
 };
 
 //when the button is clicked, the website will check if it's invited or not
@@ -16,8 +18,9 @@ function checkName() {
   if (name === "") {
     rejectText.style.display = "block";
     statement.innerHTML = "Enter your name first!";
+    window.scrollTo({ top: targetY, behavior: "smooth" });
     setTimeout(() => {
-      document.body.style.overflowY = "hidden";
+      bodyElement.style.display = "none";
       rejectText.style.display = "none";
     }, 1000);
   } else if (!guestList[name]) {
@@ -25,11 +28,13 @@ function checkName() {
     window.scrollTo({ top: targetY, behavior: "smooth" });
     rejectText.style.display = "block";
     userInput.value = "";
+    window.scrollTo({ top: targetY, behavior: "smooth" });
     setTimeout(() => {
-      document.body.style.overflowY = "hidden";
+      bodyElement.style.display = "none";
       rejectText.style.display = "none";
     }, 1000);
   } else {
+    bodyElement.style.display = "block";
     document.body.style.overflowY = "scroll";
     rejectText.style.display = "none";
     const targetY = document.getElementById("resultPart").offsetTop;

@@ -1,7 +1,6 @@
 body {
   background-color: #ff7891;
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 /*xxs*/
@@ -96,94 +95,101 @@ body {
     color: rgba(255, 255, 255, 0.678);
   }
 
-  .elements {
+  #flowersClouds {
+    margin-bottom: 0px;
     pointer-events: none;
     text-align: center;
   }
-  .elements .Flowers1 {
+  #flowersClouds .Flowers1 {
     pointer-events: none;
     position: absolute;
-    margin-top: -450px;
+    margin-top: -410px;
+    margin-bottom: 0px;
     left: 0;
     width: 100%;
-    height: auto;
   }
 
-  .elements .Flowers2 {
+  #flowersClouds .Flowers2 {
     pointer-events: none;
     position: absolute;
     margin-top: -80px;
+    margin-bottom: 0px;
     left: 0;
     width: 100%;
     height: auto;
     z-index: -1;
   }
 
-  .elements .Flowers3 {
-    pointer-events: none;
-    position: absolute;
-    margin-top: 780px;
-    left: 0;
-    width: 100%;
-    height: auto;
-    z-index: -1;
-  }
-
-  .elements .Cloud1 {
+  #flowersClouds .Cloud1 {
     pointer-events: none;
     position: absolute;
     margin-top: -30px;
+    margin-bottom: 0px;
     left: 0;
     width: 100%;
     height: auto;
   }
 
-  .elements .Cloud2 {
+  #flowersClouds .Cloud2 {
     pointer-events: none;
     position: absolute;
     margin-top: 60px;
+    margin-bottom: 0px;
     left: 0;
     width: 100%;
     height: auto;
   }
 
-  .elements .Cloud3 {
+  #flowersClouds .Cloud3 {
     pointer-events: none;
     position: absolute;
     margin-top: 30px;
+    margin-bottom: 0px;
     left: 0;
     width: 100%;
     height: auto;
   }
 
-  .elements .Cloud4 {
+  .resultElements {
+    pointer-events: none;
+    text-align: center;
+  }
+
+  .resultElements .Flowers3 {
     pointer-events: none;
     position: absolute;
-    margin-top: 950px;
+    margin-top: -150px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+
+  .resultElements .Cloud4 {
+    pointer-events: none;
+    position: absolute;
+    margin-top: -0px;
     left: 0;
     width: 100%;
     height: auto;
   }
 
-  .elements .ribbon {
+  .resultElements .ribbon {
     pointer-events: none;
     left: 0;
     width: 100%;
     height: auto;
     position: absolute;
-    margin-top: 300px;
+    margin-top: -670px;
     z-index: -5;
   }
 
-  .elements .crown {
+  .resultElements .crown {
     pointer-events: none;
-    left: 70px;
-    width: 60%;
-    height: auto;
-
     position: absolute;
-    margin-top: 500px;
-    z-index: -5;
+    left: 0px;
+    margin-top: -450px;
+    width: 100%;
   }
 
   .result {
@@ -259,7 +265,7 @@ body {
   }
 
   #reminderTitles {
-    text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.30);
+    text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3);
     font-family: Pacifico;
     font-size: 64px;
     font-style: normal;
@@ -268,7 +274,7 @@ body {
     margin-top: 0px;
     margin-bottom: -25px;
   }
-  
+
   #reminders .Flowers5 {
     margin-top: 120px;
     pointer-events: none;
@@ -279,40 +285,24 @@ body {
   }
 
   #reminders .crown2 {
+    position: absolute;
+    left: 0px;
     pointer-events: none;
     margin-top: -10px;
     width: 100%;
   }
 
-  #containerReminder{
+  #containerReminder {
     color: #fbf9f9;
-    text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.30);
+    text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3);
     font-family: "Source Sans 3";
+    margin-top: 40px;
     margin-left: 75px;
     margin-right: 75px;
     text-align: justify;
   }
-  
-  #NoPlusOne h2{
-    text-align: center;
-    margin-bottom: -10px;    
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
 
-  #NoPlusOne p{
-    text-align: center;
-    text-align: justify;
-    margin-bottom: 10px;    
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400px;
-    line-height: normal;
-  }
-  
-  #GiftGuide h2{
+  #NoPlusOne h2 {
     text-align: center;
     margin-bottom: -10px;
     font-size: 24px;
@@ -321,17 +311,17 @@ body {
     line-height: normal;
   }
 
-  #GiftGuide p{
+  #NoPlusOne p {
     text-align: center;
     text-align: justify;
-    margin-bottom: 10px;    
+    margin-bottom: -10px;
     font-size: 12px;
     font-style: normal;
     font-weight: 400px;
     line-height: normal;
   }
 
-  #EventNotice h2{
+  #GiftGuide h2 {
     text-align: center;
     margin-bottom: -10px;
     font-size: 24px;
@@ -340,10 +330,29 @@ body {
     line-height: normal;
   }
 
-  #EventNotice  p{
+  #GiftGuide p {
     text-align: center;
     text-align: justify;
-    margin-bottom: 10px;    
+    margin-bottom: -10px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+  }
+
+  #EventNotice h2 {
+    text-align: center;
+    margin-bottom: -10px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  #EventNotice p {
+    text-align: center;
+    text-align: justify;
+    margin-bottom: -10px;
     font-size: 12px;
     font-style: normal;
     font-weight: 400px;
