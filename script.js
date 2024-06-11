@@ -4,7 +4,7 @@ const bodyElement = document.getElementById("body");
 window.onload = function () {
   window.scrollTo({ top: targetY, behavior: "smooth" });
   bodyElement.style.display = "none";
-};
+}; 
 
 //when the button is clicked, the website will check if it's invited or not
 function checkName() {
