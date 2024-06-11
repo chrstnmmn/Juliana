@@ -65,6 +65,16 @@ body {
     color: rgba(255, 120, 145, 0.75);
   }
 
+  #reject {
+    display: none;
+    margin-top: 5px;
+    text-align: center;
+    color: #fbf9f9;
+    font-family: "Source Sans 3";
+    font-size: 18px;
+    font-weight: 800;
+  }
+
   #enterLink {
     cursor: pointer;
     margin-top: 0px;
@@ -234,10 +244,116 @@ body {
     line-height: normal;
   }
 
+  #reminders {
+    color: #fbf9f9;
+    text-align: center;
+  }
+
+  #reminder01 {
+    font-family: "Source Sans 3";
+    font-size: 14px;
+    font-weight: 400px;
+    margin-top: 660px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  #reminderTitles {
+    text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.30);
+    font-family: Pacifico;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: -25px;
+  }
+  
+  #reminders .Flowers5 {
+    margin-top: 120px;
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  #reminders .crown2 {
+    pointer-events: none;
+    margin-top: -10px;
+    width: 100%;
+  }
+
+  #containerReminder{
+    color: #fbf9f9;
+    text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.30);
+    font-family: "Source Sans 3";
+    margin-left: 75px;
+    margin-right: 75px;
+    text-align: justify;
+  }
+  
+  #NoPlusOne h2{
+    text-align: center;
+    margin-bottom: -10px;    
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  #NoPlusOne p{
+    text-align: center;
+    text-align: justify;
+    margin-bottom: 10px;    
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+  }
+  
+  #GiftGuide h2{
+    text-align: center;
+    margin-bottom: -10px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  #GiftGuide p{
+    text-align: center;
+    text-align: justify;
+    margin-bottom: 10px;    
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+  }
+
+  #EventNotice h2{
+    text-align: center;
+    margin-bottom: -10px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  #EventNotice  p{
+    text-align: center;
+    text-align: justify;
+    margin-bottom: 10px;    
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+  }
+
   #footer .footertext {
     color: var(--Text, #fbf9f9);
     text-align: center;
-    margin-top: 600px;
+    margin-top: 1500px;
     margin-bottom: 0;
 
     /* TextShadow */
