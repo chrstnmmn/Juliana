@@ -5,6 +5,38 @@ body {
 
 /*xxs*/
 @media (min-width: 360px) {
+  #loadingscreenelements {
+    pointer-events: none;
+    text-align: center;
+  }
+  #flowerIcon {
+    position: absolute;
+    left: 0;
+    margin-top: -95px;
+  }
+  .Flowerloadingicon {
+    width: 45%;
+  }
+  .cloudloading1 {
+    position: absolute;
+    margin-top: -140px;
+    margin-bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  .loadingtext {
+    color: #fbf9f9;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    font-family: "Pacifico";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 97.001%; /* 62.081px */
+    text-align: center;
+    margin-top: 355px;
+  }
+
   .title {
     text-align: center;
     margin-top: 210px;

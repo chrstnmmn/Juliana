@@ -1,10 +1,27 @@
 //always move scroll the page back to top when the page refresh
 const targetY = document.getElementsByClassName("Flowers1");
-const bodyElement = document.getElementById("body");
+const bodyElement = document.getElementById("mainContent");
+const mainPage = document.getElementById("mainPage");
+const preloader = document.getElementById("preloadScreen");
+
+document.addEventListener("DOMContentLoaded", ready);
+mainPage.style.display = "none";
+
+function ready() {
+  setTimeout(() => {
+    showMainPage();
+  }, 3000);
+}
+
 window.onload = function () {
   window.scrollTo({ top: targetY, behavior: "smooth" });
   bodyElement.style.display = "none";
-}; 
+};
+
+function showMainPage() {
+  preloader.style.display = "none";
+  mainPage.style.display = "block";
+}
 
 //when the button is clicked, the website will check if it's invited or not
 function checkName() {
@@ -127,7 +144,6 @@ const guestList = {
   "Elwina Aragona": 7,
   "Glen Gomez": 7,
   "Heaven Morales": 7,
-  "Dougle Dela Cruz": 7,
 
   //Table 08
   "Denver Trinidad": 8,
@@ -139,19 +155,21 @@ const guestList = {
   "Andrea Nicole Gudio": 8,
 
   //Table 09
+  "Dougle Dela Cruz": 9,
   "Jerlyn Jornalin": 9,
-  Jiro: 9,
+  "Jayrichmond Geral": 9,
   "Prince Valdez": 9,
   "Gian Duma": 9,
+  "Ruth Quinn Gaspar": 9,
 
   //Table 10
   "Airabelle Caparas": 10,
   "Kenneth Carl Concepcion": 10,
+  "Mon Mon": 10,
   Paulo: 10,
   Raymond: 10,
   Ecat: 10,
   Jerry: 10,
-  "Mon Mon": 10,
   Geloy: 10,
 
   //Table 11
