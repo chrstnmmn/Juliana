@@ -12,10 +12,10 @@ body {
   #flowerIcon {
     position: absolute;
     left: 0;
-    margin-top: -95px;
+    margin-top: -85px;
   }
   .Flowerloadingicon {
-    width: 45%;
+    width: 35%;
   }
   .cloudloading1 {
     position: absolute;
