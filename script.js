@@ -15,6 +15,7 @@ function ready() {
 
 window.onload = function () {
   window.scrollTo({ top: targetY, behavior: "smooth" });
+  preloader.style.display = "block";
   bodyElement.style.display = "none";
 };
 
@@ -107,6 +108,7 @@ const guestList = {
   "Cristinejoy Galang": 3,
   "Clarize Romero": 3,
   "Sophia Kimberly Borbe": 3,
+  "Airabelle Caparas": 3,
 
   //Table 04
   "Joshua Paul De Borja": 4,
@@ -163,7 +165,6 @@ const guestList = {
   "Ruth Quinn Gaspar": 9,
 
   //Table 10
-  "Airabelle Caparas": 10,
   "Kenneth Carl Concepcion": 10,
   "Mon Mon": 10,
   Paulo: 10,
@@ -186,8 +187,8 @@ const guestList = {
   "Josephine Sangalang": 12,
   "Jiana Fancheska": 12,
   "Justine Borbe": 12,
-  "Rae Shelle Villanueva": 12,
-  "Mikiella Abhrene": 12,
+  "Rae Shelle Villaluna": 12,
+  "Mikiella Villaluna": 12,
 
   // Add more guests as needed
 };
